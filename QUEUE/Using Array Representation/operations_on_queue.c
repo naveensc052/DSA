@@ -62,9 +62,9 @@ void display()
 
 int main()
 {
-  display();
-  insert(0);
-	insert(1);
+  	display();
+ 	insert(0);
+ 	insert(1);
 	insert(2);
 	insert(3);
 	insert(4);
