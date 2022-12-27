@@ -1,7 +1,7 @@
 #include<stdio.h>
 #define MAXSIZE 5
 
-int stack[MAXSIZE]
+int stack[MAXSIZE];
 int top = -1;
 
 void push(int data){
