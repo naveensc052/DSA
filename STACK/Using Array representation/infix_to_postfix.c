@@ -45,7 +45,7 @@ int is_operator(char symbol)
 	}
 	else
 	{
-	return 0;
+	    return 0;
 	}
 }
 
@@ -116,7 +116,7 @@ void InfixToPostfix(char infix_exp[], char postfix_exp[])
 		else
 		{ 
 			printf("Invalid infix Expression.\n");
-			break;
+			exit(1);
 		}
 		i++;
 		item = infix_exp[i]; 
@@ -124,7 +124,7 @@ void InfixToPostfix(char infix_exp[], char postfix_exp[])
 	if(top>0)
 	{
 		printf("Invalid infix Expression.\n");
-		break;
+		exit(1);
 	}
 	postfix_exp[j] = '\0'; 
 }
